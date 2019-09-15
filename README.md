@@ -1,5 +1,5 @@
 # live_code_editor
-...
+'''
 #MODELES LIVE CODE EDITOR
 
 ## MES TABLES
@@ -36,4 +36,5 @@ class Quest(models.Model):
   status = models.BooleanField()
   quest_test = models.ForeignKey('Test', on_delete=models.CASCADE, related_name='test_quest')
   
-...
+
+'''
