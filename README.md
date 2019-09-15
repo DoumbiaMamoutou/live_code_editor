@@ -1,5 +1,5 @@
 # live_code_editor
-'''
+
 #MODELES LIVE CODE EDITOR
 
 ## MES TABLES
@@ -10,12 +10,12 @@
 * Quest
 
 ### MODELE Module
-'''
+#...
 class Module(models.Model):
   nom_module = models.CharField(max_length=100)
   status = models.BooleanField(default=False)
   user = models.ForignKey(User, on_delete=models.CASCADE, related_name='user_module')
-''' 
+#...
   
 ### MODELE Semaine
 class Semaine(models.Model):
