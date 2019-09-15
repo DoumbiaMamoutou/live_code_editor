@@ -10,6 +10,7 @@
 * Quest
 
 ### MODELE Module
+```
 #...
 class Module(models.Model):
   nom_module = models.CharField(max_length=100)
@@ -38,4 +39,4 @@ class Quest(models.Model):
   quest_test = models.ForeignKey('Test', on_delete=models.CASCADE, related_name='test_quest')
   
 
-'''
+```
